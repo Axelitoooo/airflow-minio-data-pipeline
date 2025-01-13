@@ -1,0 +1,9 @@
+[2024-11-21T13:28:58.657+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-21T13:28:58.802+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_rides_pipeline.extract_rides scheduled__2024-02-17T00:00:00+00:00 [queued]>
+[2024-11-21T13:28:58.849+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_rides_pipeline.extract_rides scheduled__2024-02-17T00:00:00+00:00 [queued]>
+[2024-11-21T13:28:58.851+0000] {taskinstance.py:2865} INFO - Starting attempt 2 of 2
+[2024-11-21T13:28:58.917+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): extract_rides> on 2024-02-17 00:00:00+00:00
+[2024-11-21T13:28:58.937+0000] {standard_task_runner.py:72} INFO - Started process 523 to run task
+[2024-11-21T13:28:58.954+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'etl_rides_pipeline', 'extract_rides', 'scheduled__2024-02-17T00:00:00+00:00', '--job-id', '95', '--raw', '--subdir', 'DAGS_FOLDER/etl_dag.py', '--cfg-path', '/tmp/tmp795ac38s']
+[2024-11-21T13:28:58.971+0000] {standard_task_runner.py:105} INFO - Job 95: Subtask extract_rides
+[2024-11-21T13:36:43.258+0000] {task_command.py:467} INFO - Running <TaskInstance: etl_rides_pipeline.extract_rides scheduled__2024-02-17T00:00:00+00:00 [running]> on host 8c16ff7970b8

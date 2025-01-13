@@ -1,0 +1,204 @@
+[2024-11-21T11:49:26.144+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-21T11:49:26.157+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_rides_pipeline.extract_rides scheduled__2024-01-18T00:00:00+00:00 [queued]>
+[2024-11-21T11:49:26.165+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_rides_pipeline.extract_rides scheduled__2024-01-18T00:00:00+00:00 [queued]>
+[2024-11-21T11:49:26.171+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-11-21T11:49:26.198+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): extract_rides> on 2024-01-18 00:00:00+00:00
+[2024-11-21T11:49:26.215+0000] {standard_task_runner.py:72} INFO - Started process 95 to run task
+[2024-11-21T11:49:26.228+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'etl_rides_pipeline', 'extract_rides', 'scheduled__2024-01-18T00:00:00+00:00', '--job-id', '39', '--raw', '--subdir', 'DAGS_FOLDER/etl_dag.py', '--cfg-path', '/tmp/tmp8bo37rvc']
+[2024-11-21T11:49:26.233+0000] {standard_task_runner.py:105} INFO - Job 39: Subtask extract_rides
+[2024-11-21T11:49:26.353+0000] {task_command.py:467} INFO - Running <TaskInstance: etl_rides_pipeline.extract_rides scheduled__2024-01-18T00:00:00+00:00 [running]> on host 8c16ff7970b8
+[2024-11-21T11:49:26.580+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='axel' AIRFLOW_CTX_DAG_ID='etl_rides_pipeline' AIRFLOW_CTX_TASK_ID='extract_rides' AIRFLOW_CTX_EXECUTION_DATE='2024-01-18T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-18T00:00:00+00:00'
+[2024-11-21T11:49:26.588+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-11-21T11:49:26.588+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-11-21T11:49:26.590+0000] {logging_mixin.py:190} INFO - Current task name:extract_rides state:running start_date:2024-11-21 11:49:26.158048+00:00
+[2024-11-21T11:49:26.590+0000] {logging_mixin.py:190} INFO - Dag name:etl_rides_pipeline and current dag run status:running
+[2024-11-21T11:49:26.591+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-21T11:49:26.925+0000] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "rides" does not exist
+LINE 1: SELECT * FROM rides WHERE tpep_pickup_datetime >= '2024-01-0...
+                      ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/etl_dag.py", line 15, in extract_rides
+    rides_data = pd.read_sql(query, engine)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pandas/io/sql.py", line 682, in read_sql
+    return pandas_sql.read_query(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pandas/io/sql.py", line 1776, in read_query
+    result = self.execute(sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pandas/io/sql.py", line 1599, in execute
+    return self.con.exec_driver_sql(sql, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1770, in exec_driver_sql
+    return self._exec_driver_sql(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1674, in _exec_driver_sql
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "rides" does not exist
+LINE 1: SELECT * FROM rides WHERE tpep_pickup_datetime >= '2024-01-0...
+                      ^
+
+[SQL: SELECT * FROM rides WHERE tpep_pickup_datetime >= '2024-01-01']
+(Background on this error at: https://sqlalche.me/e/14/f405)
+[2024-11-21T11:49:27.074+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-11-21T11:49:27.076+0000] {logging_mixin.py:190} INFO - Task start:2024-11-21 11:49:26.158048+00:00 end:2024-11-21 11:49:27.058839+00:00 duration:0.900791
+[2024-11-21T11:49:27.083+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract_rides> dag:<DAG: etl_rides_pipeline> dagrun:<DagRun etl_rides_pipeline @ 2024-01-18 00:00:00+00:00: scheduled__2024-01-18T00:00:00+00:00, state:running, queued_at: 2024-11-21 11:49:20.847935+00:00. externally triggered: False>
+[2024-11-21T11:49:27.087+0000] {logging_mixin.py:190} INFO - Failure caused by (psycopg2.errors.UndefinedTable) relation "rides" does not exist
+LINE 1: SELECT * FROM rides WHERE tpep_pickup_datetime >= '2024-01-0...
+                      ^
+
+[SQL: SELECT * FROM rides WHERE tpep_pickup_datetime >= '2024-01-01']
+(Background on this error at: https://sqlalche.me/e/14/f405)
+[2024-11-21T11:49:27.091+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=etl_rides_pipeline, task_id=extract_rides, run_id=scheduled__2024-01-18T00:00:00+00:00, execution_date=20240118T000000, start_date=20241121T114926, end_date=20241121T114927
+[2024-11-21T11:49:27.198+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-21T11:49:27.203+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 39 for task extract_rides ((psycopg2.errors.UndefinedTable) relation "rides" does not exist
+LINE 1: SELECT * FROM rides WHERE tpep_pickup_datetime >= '2024-01-0...
+                      ^
+
+[SQL: SELECT * FROM rides WHERE tpep_pickup_datetime >= '2024-01-01']
+(Background on this error at: https://sqlalche.me/e/14/f405); 95)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "rides" does not exist
+LINE 1: SELECT * FROM rides WHERE tpep_pickup_datetime >= '2024-01-0...
+                      ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/etl_dag.py", line 15, in extract_rides
+    rides_data = pd.read_sql(query, engine)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pandas/io/sql.py", line 682, in read_sql
+    return pandas_sql.read_query(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pandas/io/sql.py", line 1776, in read_query
+    result = self.execute(sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pandas/io/sql.py", line 1599, in execute
+    return self.con.exec_driver_sql(sql, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1770, in exec_driver_sql
+    return self._exec_driver_sql(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1674, in _exec_driver_sql
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/airflow/.local/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "rides" does not exist
+LINE 1: SELECT * FROM rides WHERE tpep_pickup_datetime >= '2024-01-0...
+                      ^
+
+[SQL: SELECT * FROM rides WHERE tpep_pickup_datetime >= '2024-01-01']
+(Background on this error at: https://sqlalche.me/e/14/f405)
+[2024-11-21T11:49:27.305+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-11-21T11:49:27.465+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-21T11:49:27.486+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
