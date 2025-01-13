@@ -1,0 +1,4 @@
+[2024-12-11T00:22:37.915+0000] {processor.py:186} INFO - Started process (PID=22336) to work on /home/airflow/.local/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-11T00:22:37.918+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-12-11T00:22:37.921+0000] {logging_mixin.py:190} INFO - [2024-12-11T00:22:37.920+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-11T00:22:37.955+0000] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/airflow/.local/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py

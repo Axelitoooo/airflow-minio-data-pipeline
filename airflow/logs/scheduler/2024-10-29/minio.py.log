@@ -1,0 +1,1235 @@
+[2024-10-29T00:50:12.546+0000] {processor.py:186} INFO - Started process (PID=47593) to work on /opt/airflow/dags/minio.py
+[2024-10-29T00:50:12.547+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T00:50:12.552+0000] {logging_mixin.py:190} INFO - [2024-10-29T00:50:12.551+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T00:50:12.726+0000] {logging_mixin.py:190} INFO - [2024-10-29T00:50:12.723+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T00:50:12.727+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T00:50:12.751+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.219 seconds
+[2024-10-29T02:13:52.691+0000] {processor.py:186} INFO - Started process (PID=47662) to work on /opt/airflow/dags/minio.py
+[2024-10-29T02:13:52.692+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T02:13:52.704+0000] {logging_mixin.py:190} INFO - [2024-10-29T02:13:52.703+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T02:13:52.814+0000] {logging_mixin.py:190} INFO - [2024-10-29T02:13:52.812+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T02:13:52.815+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T02:13:52.828+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.147 seconds
+[2024-10-29T02:45:21.557+0000] {processor.py:186} INFO - Started process (PID=47719) to work on /opt/airflow/dags/minio.py
+[2024-10-29T02:45:21.559+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T02:45:21.563+0000] {logging_mixin.py:190} INFO - [2024-10-29T02:45:21.562+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T02:45:21.709+0000] {logging_mixin.py:190} INFO - [2024-10-29T02:45:21.707+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T02:45:21.710+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T02:45:21.721+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.174 seconds
+[2024-10-29T03:18:11.864+0000] {processor.py:186} INFO - Started process (PID=47782) to work on /opt/airflow/dags/minio.py
+[2024-10-29T03:18:11.867+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T03:18:11.870+0000] {logging_mixin.py:190} INFO - [2024-10-29T03:18:11.870+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T03:18:11.979+0000] {logging_mixin.py:190} INFO - [2024-10-29T03:18:11.977+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T03:18:11.979+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T03:18:11.988+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.133 seconds
+[2024-10-29T03:45:35.140+0000] {processor.py:186} INFO - Started process (PID=47851) to work on /opt/airflow/dags/minio.py
+[2024-10-29T03:45:35.146+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T03:45:35.172+0000] {logging_mixin.py:190} INFO - [2024-10-29T03:45:35.171+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T03:45:35.324+0000] {logging_mixin.py:190} INFO - [2024-10-29T03:45:35.316+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T03:45:35.326+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T03:45:35.343+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.226 seconds
+[2024-10-29T04:34:57.768+0000] {processor.py:186} INFO - Started process (PID=47908) to work on /opt/airflow/dags/minio.py
+[2024-10-29T04:34:57.771+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T04:34:57.779+0000] {logging_mixin.py:190} INFO - [2024-10-29T04:34:57.778+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T04:34:57.917+0000] {logging_mixin.py:190} INFO - [2024-10-29T04:34:57.914+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T04:34:57.917+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T04:34:57.931+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.191 seconds
+[2024-10-29T04:59:48.011+0000] {processor.py:186} INFO - Started process (PID=47970) to work on /opt/airflow/dags/minio.py
+[2024-10-29T04:59:48.012+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T04:59:48.016+0000] {logging_mixin.py:190} INFO - [2024-10-29T04:59:48.015+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T04:59:48.125+0000] {logging_mixin.py:190} INFO - [2024-10-29T04:59:48.123+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T04:59:48.125+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T04:59:48.135+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.131 seconds
+[2024-10-29T05:52:12.406+0000] {processor.py:186} INFO - Started process (PID=48033) to work on /opt/airflow/dags/minio.py
+[2024-10-29T05:52:12.410+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T05:52:12.422+0000] {logging_mixin.py:190} INFO - [2024-10-29T05:52:12.422+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T05:52:12.525+0000] {logging_mixin.py:190} INFO - [2024-10-29T05:52:12.521+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T05:52:12.526+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T05:52:12.538+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.138 seconds
+[2024-10-29T06:30:59.263+0000] {processor.py:186} INFO - Started process (PID=48095) to work on /opt/airflow/dags/minio.py
+[2024-10-29T06:30:59.264+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T06:30:59.267+0000] {logging_mixin.py:190} INFO - [2024-10-29T06:30:59.267+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T06:30:59.363+0000] {logging_mixin.py:190} INFO - [2024-10-29T06:30:59.361+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T06:30:59.363+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T06:30:59.373+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.116 seconds
+[2024-10-29T07:19:56.491+0000] {processor.py:186} INFO - Started process (PID=48158) to work on /opt/airflow/dags/minio.py
+[2024-10-29T07:19:56.501+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T07:19:56.517+0000] {logging_mixin.py:190} INFO - [2024-10-29T07:19:56.511+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T07:19:56.678+0000] {logging_mixin.py:190} INFO - [2024-10-29T07:19:56.677+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T07:19:56.679+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T07:19:56.691+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.229 seconds
+[2024-10-29T07:59:17.755+0000] {processor.py:186} INFO - Started process (PID=48220) to work on /opt/airflow/dags/minio.py
+[2024-10-29T07:59:17.763+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T07:59:17.791+0000] {logging_mixin.py:190} INFO - [2024-10-29T07:59:17.785+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T07:59:18.156+0000] {logging_mixin.py:190} INFO - [2024-10-29T07:59:18.147+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T07:59:18.157+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T07:59:18.182+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.465 seconds
+[2024-10-29T07:59:48.851+0000] {processor.py:186} INFO - Started process (PID=48290) to work on /opt/airflow/dags/minio.py
+[2024-10-29T07:59:48.854+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T07:59:48.858+0000] {logging_mixin.py:190} INFO - [2024-10-29T07:59:48.858+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T07:59:48.979+0000] {logging_mixin.py:190} INFO - [2024-10-29T07:59:48.977+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T07:59:48.980+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T07:59:48.992+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.160 seconds
+[2024-10-29T08:00:19.281+0000] {processor.py:186} INFO - Started process (PID=48353) to work on /opt/airflow/dags/minio.py
+[2024-10-29T08:00:19.283+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T08:00:19.287+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:00:19.287+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T08:00:19.378+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:00:19.373+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T08:00:19.378+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T08:00:19.394+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.126 seconds
+[2024-10-29T08:00:49.574+0000] {processor.py:186} INFO - Started process (PID=48416) to work on /opt/airflow/dags/minio.py
+[2024-10-29T08:00:49.575+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T08:00:49.580+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:00:49.579+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T08:00:49.684+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:00:49.682+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T08:00:49.684+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T08:00:49.695+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.132 seconds
+[2024-10-29T08:01:19.946+0000] {processor.py:186} INFO - Started process (PID=48479) to work on /opt/airflow/dags/minio.py
+[2024-10-29T08:01:19.950+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T08:01:19.962+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:01:19.962+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T08:01:20.113+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:01:20.109+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T08:01:20.113+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T08:01:20.127+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.190 seconds
+[2024-10-29T08:01:50.804+0000] {processor.py:186} INFO - Started process (PID=48542) to work on /opt/airflow/dags/minio.py
+[2024-10-29T08:01:50.807+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T08:01:50.816+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:01:50.811+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T08:01:50.954+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:01:50.952+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T08:01:50.955+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T08:01:50.969+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.183 seconds
+[2024-10-29T08:02:21.772+0000] {processor.py:186} INFO - Started process (PID=48605) to work on /opt/airflow/dags/minio.py
+[2024-10-29T08:02:21.775+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T08:02:21.780+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:02:21.780+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T08:02:21.916+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:02:21.912+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T08:02:21.917+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T08:02:21.929+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.196 seconds
+[2024-10-29T08:02:52.494+0000] {processor.py:186} INFO - Started process (PID=48668) to work on /opt/airflow/dags/minio.py
+[2024-10-29T08:02:52.500+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T08:02:52.514+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:02:52.513+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T08:02:52.650+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:02:52.648+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T08:02:52.651+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T08:02:52.660+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.184 seconds
+[2024-10-29T08:03:23.018+0000] {processor.py:186} INFO - Started process (PID=48731) to work on /opt/airflow/dags/minio.py
+[2024-10-29T08:03:23.021+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T08:03:23.027+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:03:23.026+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T08:03:23.124+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:03:23.122+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T08:03:23.124+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T08:03:23.137+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.137 seconds
+[2024-10-29T08:03:53.353+0000] {processor.py:186} INFO - Started process (PID=48794) to work on /opt/airflow/dags/minio.py
+[2024-10-29T08:03:53.355+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T08:03:53.360+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:03:53.359+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T08:03:53.500+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:03:53.498+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T08:03:53.500+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T08:03:53.521+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.185 seconds
+[2024-10-29T08:04:23.819+0000] {processor.py:186} INFO - Started process (PID=48857) to work on /opt/airflow/dags/minio.py
+[2024-10-29T08:04:23.821+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T08:04:23.829+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:04:23.827+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T08:04:23.961+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:04:23.959+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T08:04:23.962+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T08:04:23.971+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.165 seconds
+[2024-10-29T08:04:54.252+0000] {processor.py:186} INFO - Started process (PID=48919) to work on /opt/airflow/dags/minio.py
+[2024-10-29T08:04:54.254+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T08:04:54.259+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:04:54.258+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T08:04:54.382+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:04:54.379+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T08:04:54.383+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T08:04:54.393+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.164 seconds
+[2024-10-29T08:05:24.844+0000] {processor.py:186} INFO - Started process (PID=48982) to work on /opt/airflow/dags/minio.py
+[2024-10-29T08:05:24.845+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T08:05:24.850+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:05:24.850+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T08:05:24.974+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:05:24.972+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T08:05:24.975+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T08:05:24.986+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.160 seconds
+[2024-10-29T08:05:55.404+0000] {processor.py:186} INFO - Started process (PID=49045) to work on /opt/airflow/dags/minio.py
+[2024-10-29T08:05:55.406+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T08:05:55.412+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:05:55.412+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T08:05:55.549+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:05:55.547+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T08:05:55.550+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T08:05:55.562+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.175 seconds
+[2024-10-29T08:06:25.794+0000] {processor.py:186} INFO - Started process (PID=49108) to work on /opt/airflow/dags/minio.py
+[2024-10-29T08:06:25.796+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T08:06:25.809+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:06:25.808+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T08:06:25.943+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:06:25.937+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T08:06:25.944+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T08:06:25.966+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.190 seconds
+[2024-10-29T08:06:56.394+0000] {processor.py:186} INFO - Started process (PID=49171) to work on /opt/airflow/dags/minio.py
+[2024-10-29T08:06:56.401+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T08:06:56.407+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:06:56.407+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T08:06:56.543+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:06:56.538+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T08:06:56.544+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T08:06:56.559+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.181 seconds
+[2024-10-29T08:07:27.082+0000] {processor.py:186} INFO - Started process (PID=49234) to work on /opt/airflow/dags/minio.py
+[2024-10-29T08:07:27.085+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T08:07:27.092+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:07:27.091+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T08:07:27.876+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:07:27.861+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T08:07:27.883+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T08:07:27.917+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.859 seconds
+[2024-10-29T08:07:58.514+0000] {processor.py:186} INFO - Started process (PID=49297) to work on /opt/airflow/dags/minio.py
+[2024-10-29T08:07:58.519+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T08:07:58.525+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:07:58.524+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T08:07:58.684+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:07:58.682+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T08:07:58.685+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T08:07:58.700+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.200 seconds
+[2024-10-29T08:08:28.931+0000] {processor.py:186} INFO - Started process (PID=49360) to work on /opt/airflow/dags/minio.py
+[2024-10-29T08:08:28.934+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T08:08:28.950+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:08:28.946+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T08:08:29.181+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:08:29.178+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T08:08:29.183+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T08:08:29.204+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.294 seconds
+[2024-10-29T08:08:59.875+0000] {processor.py:186} INFO - Started process (PID=49422) to work on /opt/airflow/dags/minio.py
+[2024-10-29T08:08:59.884+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T08:08:59.891+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:08:59.890+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T08:09:00.023+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:09:00.020+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T08:09:00.023+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T08:09:00.048+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.202 seconds
+[2024-10-29T08:09:30.361+0000] {processor.py:186} INFO - Started process (PID=49485) to work on /opt/airflow/dags/minio.py
+[2024-10-29T08:09:30.368+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T08:09:30.372+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:09:30.372+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T08:09:30.520+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:09:30.515+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T08:09:30.521+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T08:09:30.539+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.213 seconds
+[2024-10-29T08:10:00.828+0000] {processor.py:186} INFO - Started process (PID=49548) to work on /opt/airflow/dags/minio.py
+[2024-10-29T08:10:00.837+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T08:10:00.858+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:10:00.857+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T08:10:01.123+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:10:01.118+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T08:10:01.124+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T08:10:01.143+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.368 seconds
+[2024-10-29T08:10:31.708+0000] {processor.py:186} INFO - Started process (PID=49611) to work on /opt/airflow/dags/minio.py
+[2024-10-29T08:10:31.711+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T08:10:31.717+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:10:31.716+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T08:10:31.897+0000] {logging_mixin.py:190} INFO - [2024-10-29T08:10:31.894+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T08:10:31.897+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T08:10:31.920+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.252 seconds
+[2024-10-29T18:52:57.239+0000] {processor.py:186} INFO - Started process (PID=48) to work on /opt/airflow/dags/minio.py
+[2024-10-29T18:52:57.242+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T18:52:57.246+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:52:57.245+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T18:52:57.595+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:52:57.582+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T18:52:57.598+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T18:52:57.635+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.405 seconds
+[2024-10-29T18:53:28.193+0000] {processor.py:186} INFO - Started process (PID=110) to work on /opt/airflow/dags/minio.py
+[2024-10-29T18:53:28.195+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T18:53:28.199+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:53:28.198+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T18:53:29.764+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:53:29.751+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T18:53:29.767+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T18:53:29.846+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 1.677 seconds
+[2024-10-29T18:54:14.509+0000] {processor.py:186} INFO - Started process (PID=179) to work on /opt/airflow/dags/minio.py
+[2024-10-29T18:54:14.528+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T18:54:14.541+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:54:14.540+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T18:54:15.872+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:54:15.807+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T18:54:15.877+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T18:54:16.039+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 1.543 seconds
+[2024-10-29T18:54:57.468+0000] {processor.py:186} INFO - Started process (PID=241) to work on /opt/airflow/dags/minio.py
+[2024-10-29T18:54:57.470+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T18:54:57.474+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:54:57.474+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T18:54:59.150+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:54:59.137+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T18:54:59.156+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T18:54:59.319+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 1.861 seconds
+[2024-10-29T18:55:31.120+0000] {processor.py:186} INFO - Started process (PID=290) to work on /opt/airflow/dags/minio.py
+[2024-10-29T18:55:31.123+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T18:55:31.135+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:55:31.134+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T18:55:32.257+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:55:32.232+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T18:55:32.260+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T18:55:32.327+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 1.230 seconds
+[2024-10-29T18:56:02.401+0000] {processor.py:186} INFO - Started process (PID=352) to work on /opt/airflow/dags/minio.py
+[2024-10-29T18:56:02.403+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T18:56:02.407+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:56:02.407+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T18:56:02.517+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:56:02.514+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T18:56:02.517+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T18:56:02.537+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.146 seconds
+[2024-10-29T18:56:33.366+0000] {processor.py:186} INFO - Started process (PID=415) to work on /opt/airflow/dags/minio.py
+[2024-10-29T18:56:33.367+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T18:56:33.370+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:56:33.370+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T18:56:33.477+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:56:33.475+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T18:56:33.477+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T18:56:33.489+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.131 seconds
+[2024-10-29T18:57:04.181+0000] {processor.py:186} INFO - Started process (PID=478) to work on /opt/airflow/dags/minio.py
+[2024-10-29T18:57:04.182+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T18:57:04.185+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:57:04.184+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T18:57:04.272+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:57:04.270+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T18:57:04.272+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T18:57:04.283+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.110 seconds
+[2024-10-29T18:57:34.853+0000] {processor.py:186} INFO - Started process (PID=541) to work on /opt/airflow/dags/minio.py
+[2024-10-29T18:57:34.855+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T18:57:34.857+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:57:34.857+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T18:57:34.937+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:57:34.936+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T18:57:34.938+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T18:57:34.947+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.101 seconds
+[2024-10-29T18:58:05.328+0000] {processor.py:186} INFO - Started process (PID=604) to work on /opt/airflow/dags/minio.py
+[2024-10-29T18:58:05.330+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T18:58:05.334+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:58:05.333+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T18:58:05.422+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:58:05.421+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T18:58:05.423+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T18:58:05.436+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.116 seconds
+[2024-10-29T18:58:35.565+0000] {processor.py:186} INFO - Started process (PID=667) to work on /opt/airflow/dags/minio.py
+[2024-10-29T18:58:35.566+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T18:58:35.569+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:58:35.569+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T18:58:35.665+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:58:35.663+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T18:58:35.665+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T18:58:35.680+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.124 seconds
+[2024-10-29T18:59:05.757+0000] {processor.py:186} INFO - Started process (PID=730) to work on /opt/airflow/dags/minio.py
+[2024-10-29T18:59:05.758+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T18:59:05.761+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:59:05.761+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T18:59:05.835+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:59:05.834+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T18:59:05.836+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T18:59:05.851+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.102 seconds
+[2024-10-29T18:59:36.050+0000] {processor.py:186} INFO - Started process (PID=793) to work on /opt/airflow/dags/minio.py
+[2024-10-29T18:59:36.050+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T18:59:36.051+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:59:36.051+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T18:59:36.132+0000] {logging_mixin.py:190} INFO - [2024-10-29T18:59:36.131+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T18:59:36.133+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T18:59:36.142+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.097 seconds
+[2024-10-29T19:00:06.789+0000] {processor.py:186} INFO - Started process (PID=855) to work on /opt/airflow/dags/minio.py
+[2024-10-29T19:00:06.791+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T19:00:06.793+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:06.793+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T19:00:06.884+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:06.882+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T19:00:06.884+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T19:00:06.894+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.114 seconds
+[2024-10-29T19:00:37.051+0000] {processor.py:186} INFO - Started process (PID=918) to work on /opt/airflow/dags/minio.py
+[2024-10-29T19:00:37.053+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T19:00:37.055+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:37.055+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T19:00:37.132+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:00:37.131+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T19:00:37.133+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T19:00:37.142+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.098 seconds
+[2024-10-29T19:01:07.880+0000] {processor.py:186} INFO - Started process (PID=981) to work on /opt/airflow/dags/minio.py
+[2024-10-29T19:01:07.881+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T19:01:07.902+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:01:07.900+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T19:01:08.188+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:01:08.183+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T19:01:08.189+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T19:01:08.234+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.364 seconds
+[2024-10-29T19:01:39.093+0000] {processor.py:186} INFO - Started process (PID=1044) to work on /opt/airflow/dags/minio.py
+[2024-10-29T19:01:39.096+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T19:01:39.099+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:01:39.099+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T19:01:39.203+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:01:39.201+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T19:01:39.203+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T19:01:39.218+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.134 seconds
+[2024-10-29T19:02:09.304+0000] {processor.py:186} INFO - Started process (PID=1107) to work on /opt/airflow/dags/minio.py
+[2024-10-29T19:02:09.307+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T19:02:09.309+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:02:09.309+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T19:02:09.399+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:02:09.397+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T19:02:09.399+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T19:02:09.410+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.113 seconds
+[2024-10-29T19:02:40.377+0000] {processor.py:186} INFO - Started process (PID=1170) to work on /opt/airflow/dags/minio.py
+[2024-10-29T19:02:40.378+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T19:02:40.381+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:02:40.381+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T19:02:40.456+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:02:40.455+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T19:02:40.457+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T19:02:40.465+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.102 seconds
+[2024-10-29T19:03:11.061+0000] {processor.py:186} INFO - Started process (PID=1233) to work on /opt/airflow/dags/minio.py
+[2024-10-29T19:03:11.063+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T19:03:11.068+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:03:11.067+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T19:03:11.163+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:03:11.161+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T19:03:11.164+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T19:03:11.173+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.123 seconds
+[2024-10-29T19:03:41.800+0000] {processor.py:186} INFO - Started process (PID=1296) to work on /opt/airflow/dags/minio.py
+[2024-10-29T19:03:41.802+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T19:03:41.805+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:03:41.805+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T19:03:41.883+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:03:41.882+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T19:03:41.883+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T19:03:41.892+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.101 seconds
+[2024-10-29T19:04:12.570+0000] {processor.py:186} INFO - Started process (PID=1359) to work on /opt/airflow/dags/minio.py
+[2024-10-29T19:04:12.572+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T19:04:12.575+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:04:12.575+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T19:04:12.689+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:04:12.687+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T19:04:12.690+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T19:04:12.698+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.138 seconds
+[2024-10-29T19:04:42.994+0000] {processor.py:186} INFO - Started process (PID=1422) to work on /opt/airflow/dags/minio.py
+[2024-10-29T19:04:42.995+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T19:04:42.996+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:04:42.996+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T19:04:43.088+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:04:43.086+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T19:04:43.088+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T19:04:43.096+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.109 seconds
+[2024-10-29T19:05:13.626+0000] {processor.py:186} INFO - Started process (PID=1485) to work on /opt/airflow/dags/minio.py
+[2024-10-29T19:05:13.629+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T19:05:13.633+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:05:13.633+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T19:05:13.714+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:05:13.712+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T19:05:13.714+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T19:05:13.723+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.109 seconds
+[2024-10-29T19:05:43.813+0000] {processor.py:186} INFO - Started process (PID=1548) to work on /opt/airflow/dags/minio.py
+[2024-10-29T19:05:43.815+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T19:05:43.819+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:05:43.818+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T19:05:43.928+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:05:43.926+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T19:05:43.928+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T19:05:43.936+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.139 seconds
+[2024-10-29T19:23:17.441+0000] {processor.py:186} INFO - Started process (PID=1606) to work on /opt/airflow/dags/minio.py
+[2024-10-29T19:23:17.442+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T19:23:17.445+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:23:17.444+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T19:23:17.550+0000] {logging_mixin.py:190} INFO - [2024-10-29T19:23:17.549+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T19:23:17.551+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T19:23:17.560+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.126 seconds
+[2024-10-29T20:00:03.587+0000] {processor.py:186} INFO - Started process (PID=1669) to work on /opt/airflow/dags/minio.py
+[2024-10-29T20:00:03.589+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T20:00:03.595+0000] {logging_mixin.py:190} INFO - [2024-10-29T20:00:03.594+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T20:00:03.746+0000] {logging_mixin.py:190} INFO - [2024-10-29T20:00:03.743+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T20:00:03.747+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T20:00:03.762+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.196 seconds
+[2024-10-29T20:32:00.367+0000] {processor.py:186} INFO - Started process (PID=1732) to work on /opt/airflow/dags/minio.py
+[2024-10-29T20:32:00.371+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T20:32:00.375+0000] {logging_mixin.py:190} INFO - [2024-10-29T20:32:00.374+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T20:32:00.525+0000] {logging_mixin.py:190} INFO - [2024-10-29T20:32:00.521+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T20:32:00.525+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T20:32:00.536+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.183 seconds
+[2024-10-29T20:58:58.601+0000] {processor.py:186} INFO - Started process (PID=1795) to work on /opt/airflow/dags/minio.py
+[2024-10-29T20:58:58.605+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T20:58:58.610+0000] {logging_mixin.py:190} INFO - [2024-10-29T20:58:58.610+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T20:58:58.806+0000] {logging_mixin.py:190} INFO - [2024-10-29T20:58:58.800+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T20:58:58.808+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T20:58:58.823+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.248 seconds
+[2024-10-29T21:40:52.730+0000] {processor.py:186} INFO - Started process (PID=1858) to work on /opt/airflow/dags/minio.py
+[2024-10-29T21:40:52.733+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T21:40:52.737+0000] {logging_mixin.py:190} INFO - [2024-10-29T21:40:52.737+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T21:40:52.849+0000] {logging_mixin.py:190} INFO - [2024-10-29T21:40:52.847+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T21:40:52.849+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T21:40:52.869+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.171 seconds
+[2024-10-29T22:49:27.539+0000] {processor.py:186} INFO - Started process (PID=1921) to work on /opt/airflow/dags/minio.py
+[2024-10-29T22:49:27.541+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T22:49:27.553+0000] {logging_mixin.py:190} INFO - [2024-10-29T22:49:27.552+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T22:49:27.670+0000] {logging_mixin.py:190} INFO - [2024-10-29T22:49:27.668+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T22:49:27.671+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T22:49:27.682+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.152 seconds
+[2024-10-29T23:03:26.936+0000] {processor.py:186} INFO - Started process (PID=1984) to work on /opt/airflow/dags/minio.py
+[2024-10-29T23:03:26.945+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-10-29T23:03:26.976+0000] {logging_mixin.py:190} INFO - [2024-10-29T23:03:26.975+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-10-29T23:03:27.155+0000] {logging_mixin.py:190} INFO - [2024-10-29T23:03:27.152+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/minio.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/minio.py", line 53, in <module>
+    with DAG(dag_id='Grab NYC Data to Minio',
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dag.py", line 593, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Grab NYC Data to Minio' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-29T23:03:27.155+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/minio.py
+[2024-10-29T23:03:27.171+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.283 seconds

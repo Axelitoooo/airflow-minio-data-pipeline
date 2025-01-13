@@ -1,0 +1,7 @@
+[2024-12-11T00:22:36.821+0000] {processor.py:186} INFO - Started process (PID=22325) to work on /opt/airflow/dags/minio.py
+[2024-12-11T00:22:36.823+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/minio.py for tasks to queue
+[2024-12-11T00:22:36.827+0000] {logging_mixin.py:190} INFO - [2024-12-11T00:22:36.826+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/minio.py
+[2024-12-11T00:22:36.837+0000] {processor.py:925} INFO - DAG(s) 'Grab_NYC_Data_to_Minio' retrieved from /opt/airflow/dags/minio.py
+[2024-12-11T00:22:37.008+0000] {logging_mixin.py:190} INFO - [2024-12-11T00:22:37.008+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-11T00:22:37.024+0000] {logging_mixin.py:190} INFO - [2024-12-11T00:22:37.024+0000] {dag.py:4180} INFO - Setting next_dagrun for Grab_NYC_Data_to_Minio to None, run_after=None
+[2024-12-11T00:22:37.041+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/minio.py took 0.227 seconds

@@ -1,0 +1,2 @@
+[2024-12-10T13:06:52.567+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-10T13:06:52.989+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_rides_pipeline.extract_rides scheduled__2024-10-26T00:00:00+00:00 [queued]>

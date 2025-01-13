@@ -1,0 +1,18 @@
+[2024-11-21T12:26:26.959+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-21T12:26:27.203+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_rides_pipeline.extract_rides scheduled__2024-02-06T00:00:00+00:00 [queued]>
+[2024-11-21T12:26:27.239+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_rides_pipeline.extract_rides scheduled__2024-02-06T00:00:00+00:00 [queued]>
+[2024-11-21T12:26:27.242+0000] {taskinstance.py:2865} INFO - Starting attempt 2 of 2
+[2024-11-21T12:26:27.429+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): extract_rides> on 2024-02-06 00:00:00+00:00
+[2024-11-21T12:26:27.478+0000] {standard_task_runner.py:72} INFO - Started process 428 to run task
+[2024-11-21T12:26:27.550+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'etl_rides_pipeline', 'extract_rides', 'scheduled__2024-02-06T00:00:00+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/etl_dag.py', '--cfg-path', '/tmp/tmpmc160yk6']
+[2024-11-21T12:26:27.557+0000] {standard_task_runner.py:105} INFO - Job 84: Subtask extract_rides
+[2024-11-21T12:26:27.948+0000] {task_command.py:467} INFO - Running <TaskInstance: etl_rides_pipeline.extract_rides scheduled__2024-02-06T00:00:00+00:00 [running]> on host 8c16ff7970b8
+[2024-11-21T12:26:29.648+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='axel' AIRFLOW_CTX_DAG_ID='etl_rides_pipeline' AIRFLOW_CTX_TASK_ID='extract_rides' AIRFLOW_CTX_EXECUTION_DATE='2024-02-06T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-02-06T00:00:00+00:00'
+[2024-11-21T12:26:29.690+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-11-21T12:26:29.695+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-11-21T12:26:29.698+0000] {logging_mixin.py:190} INFO - Current task name:extract_rides state:running start_date:2024-11-21 12:26:27.209930+00:00
+[2024-11-21T12:26:29.702+0000] {logging_mixin.py:190} INFO - Dag name:etl_rides_pipeline and current dag run status:running
+[2024-11-21T12:26:29.705+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-21T12:42:56.426+0000] {local_task_job_runner.py:228} ERROR - Heartbeat time limit exceeded!
+[2024-11-21T12:42:56.458+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-11-21T12:42:56.497+0000] {standard_task_runner.py:190} ERROR - ('Job 84 was killed before it finished (likely due to running out of memory)', 'For more information, see https://***.apache.org/docs/apache-***/stable/troubleshooting.html#LocalTaskJob-killed')

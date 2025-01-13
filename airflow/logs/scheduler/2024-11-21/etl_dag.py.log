@@ -1,0 +1,326 @@
+[2024-11-21T11:48:55.842+0000] {processor.py:186} INFO - Started process (PID=48) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:48:55.845+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T11:48:55.855+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:48:55.850+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:48:55.898+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:48:55.965+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:48:55.964+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T11:48:56.079+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.261 seconds
+[2024-11-21T11:49:26.890+0000] {processor.py:186} INFO - Started process (PID=119) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:49:26.899+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T11:49:26.927+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:49:26.923+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:49:27.019+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:49:27.147+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:49:27.147+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T11:49:27.281+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:49:27.279+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_rides_pipeline to 2024-01-19 00:00:00+00:00, run_after=2024-01-20 00:00:00+00:00
+[2024-11-21T11:49:27.354+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.514 seconds
+[2024-11-21T11:50:01.623+0000] {processor.py:186} INFO - Started process (PID=183) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:50:01.624+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T11:50:01.625+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:50:01.625+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:50:01.635+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:50:01.647+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:50:01.647+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T11:50:01.668+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.050 seconds
+[2024-11-21T11:50:32.200+0000] {processor.py:186} INFO - Started process (PID=240) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:50:32.202+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T11:50:32.209+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:50:32.208+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:50:32.228+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:50:32.251+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:50:32.251+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T11:50:32.488+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.305 seconds
+[2024-11-21T11:51:02.700+0000] {processor.py:186} INFO - Started process (PID=304) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:51:02.703+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T11:51:02.707+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:51:02.707+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:51:02.723+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:51:02.742+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:51:02.742+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T11:51:03.147+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.459 seconds
+[2024-11-21T11:51:33.572+0000] {processor.py:186} INFO - Started process (PID=368) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:51:33.574+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T11:51:33.577+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:51:33.576+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:51:33.587+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:51:33.600+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:51:33.600+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T11:51:33.627+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.064 seconds
+[2024-11-21T11:52:03.729+0000] {processor.py:186} INFO - Started process (PID=432) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:52:03.730+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T11:52:03.732+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:52:03.732+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:52:03.740+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:52:03.751+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:52:03.751+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T11:52:03.768+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.045 seconds
+[2024-11-21T11:52:34.491+0000] {processor.py:186} INFO - Started process (PID=495) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:52:34.493+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T11:52:34.498+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:52:34.498+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:52:34.509+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:52:34.524+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:52:34.524+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T11:52:34.547+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.074 seconds
+[2024-11-21T11:53:05.253+0000] {processor.py:186} INFO - Started process (PID=559) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:53:05.254+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T11:53:05.256+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:53:05.256+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:53:05.264+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:53:05.276+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:53:05.276+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T11:53:05.299+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.051 seconds
+[2024-11-21T11:53:36.022+0000] {processor.py:186} INFO - Started process (PID=623) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:53:36.023+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T11:53:36.025+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:53:36.025+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:53:36.032+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:53:36.045+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:53:36.045+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T11:53:36.079+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.062 seconds
+[2024-11-21T11:54:07.939+0000] {processor.py:186} INFO - Started process (PID=696) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:54:07.972+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T11:54:08.051+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:54:08.048+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:54:08.203+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:54:08.641+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:54:08.617+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T11:54:09.956+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 2.116 seconds
+[2024-11-21T11:55:05.337+0000] {processor.py:186} INFO - Started process (PID=777) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:55:05.352+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T11:55:05.422+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:55:05.418+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:55:05.861+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:55:06.214+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:55:06.196+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T11:55:06.391+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:55:06.382+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_rides_pipeline to 2024-01-22 00:00:00+00:00, run_after=2024-01-23 00:00:00+00:00
+[2024-11-21T11:55:06.524+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 1.273 seconds
+[2024-11-21T11:55:06.772+0000] {processor.py:186} INFO - Started process (PID=779) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:55:06.784+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T11:55:06.832+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:55:06.830+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:55:06.980+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:55:11.988+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:55:11.984+0000] {taskinstance.py:3312} ERROR - {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-01-08T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': '8a87056a-a09f-4bc5-b6fd-bbde5efa6f47'}
+[2024-11-21T11:55:12.198+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-11-21T11:55:12.207+0000] {logging_mixin.py:190} INFO - Task start:2024-11-21 11:54:33.202318+00:00 end:2024-11-21 11:55:12.038417+00:00 duration:38.836099
+[2024-11-21T11:55:12.227+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract_rides> dag:<DAG: etl_rides_pipeline> dagrun:<DagRun etl_rides_pipeline @ 2024-01-08 00:00:00+00:00: scheduled__2024-01-08T00:00:00+00:00, state:running, queued_at: 2024-11-20 01:34:49.782481+00:00. externally triggered: False>
+[2024-11-21T11:55:12.228+0000] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-01-08T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': '8a87056a-a09f-4bc5-b6fd-bbde5efa6f47'}
+[2024-11-21T11:55:12.251+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:55:12.250+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=etl_rides_pipeline, task_id=extract_rides, run_id=scheduled__2024-01-08T00:00:00+00:00, execution_date=20240108T000000, start_date=20241121T115433, end_date=20241121T115512
+[2024-11-21T11:55:12.371+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:55:12.369+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: etl_rides_pipeline.extract_rides scheduled__2024-01-08T00:00:00+00:00 [failed]> in state failed
+[2024-11-21T11:55:12.471+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:55:12.470+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T11:55:12.623+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:55:12.620+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_rides_pipeline to 2024-01-23 00:00:00+00:00, run_after=2024-01-24 00:00:00+00:00
+[2024-11-21T11:55:12.689+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 7.106 seconds
+[2024-11-21T11:55:43.009+0000] {processor.py:186} INFO - Started process (PID=842) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:55:43.013+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T11:55:43.021+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:55:43.020+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:55:43.077+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:55:43.138+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:55:43.138+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T11:55:43.193+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:55:43.193+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_rides_pipeline to 2024-01-29 00:00:00+00:00, run_after=2024-01-30 00:00:00+00:00
+[2024-11-21T11:55:43.221+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.228 seconds
+[2024-11-21T11:56:15.597+0000] {processor.py:186} INFO - Started process (PID=869) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:56:15.603+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T11:56:15.622+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:56:15.620+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:56:15.681+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:56:15.813+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:56:15.812+0000] {taskinstance.py:3312} ERROR - {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-01-25T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': '6113dfd7-ca3c-4996-934d-05f2a3aa4e84'}
+[2024-11-21T11:56:15.947+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-11-21T11:56:15.950+0000] {logging_mixin.py:190} INFO - Task start:2024-11-21 11:55:53.530585+00:00 end:2024-11-21 11:56:15.937138+00:00 duration:22.406553
+[2024-11-21T11:56:15.953+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract_rides> dag:<DAG: etl_rides_pipeline> dagrun:<DagRun etl_rides_pipeline @ 2024-01-25 00:00:00+00:00: scheduled__2024-01-25T00:00:00+00:00, state:running, queued_at: 2024-11-21 11:55:41.797661+00:00. externally triggered: False>
+[2024-11-21T11:56:15.954+0000] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-01-25T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': '6113dfd7-ca3c-4996-934d-05f2a3aa4e84'}
+[2024-11-21T11:56:15.958+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:56:15.958+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=etl_rides_pipeline, task_id=extract_rides, run_id=scheduled__2024-01-25T00:00:00+00:00, execution_date=20240125T000000, start_date=20241121T115553, end_date=20241121T115615
+[2024-11-21T11:56:16.008+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:56:16.007+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: etl_rides_pipeline.extract_rides scheduled__2024-01-25T00:00:00+00:00 [up_for_retry]> in state up_for_retry
+[2024-11-21T11:56:16.070+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:56:16.068+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T11:56:16.193+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.612 seconds
+[2024-11-21T11:56:46.371+0000] {processor.py:186} INFO - Started process (PID=932) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:56:46.373+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T11:56:46.379+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:56:46.379+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:56:46.399+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:56:46.433+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:56:46.432+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T11:56:46.534+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.175 seconds
+[2024-11-21T11:57:16.605+0000] {processor.py:186} INFO - Started process (PID=997) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:57:16.606+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T11:57:16.607+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:57:16.607+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:57:16.614+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:57:16.625+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:57:16.625+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T11:57:16.651+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.049 seconds
+[2024-11-21T11:57:46.673+0000] {processor.py:186} INFO - Started process (PID=1061) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:57:46.673+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T11:57:46.675+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:57:46.675+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:57:46.683+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:57:46.703+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:57:46.703+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T11:57:46.730+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.062 seconds
+[2024-11-21T11:58:17.474+0000] {processor.py:186} INFO - Started process (PID=1124) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:58:17.475+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T11:58:17.478+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:58:17.478+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:58:17.490+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:58:17.506+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:58:17.506+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T11:58:17.527+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.062 seconds
+[2024-11-21T11:58:48.045+0000] {processor.py:186} INFO - Started process (PID=1188) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:58:48.047+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T11:58:48.051+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:58:48.050+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:58:48.064+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:58:48.079+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:58:48.079+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T11:58:48.100+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.064 seconds
+[2024-11-21T11:59:18.834+0000] {processor.py:186} INFO - Started process (PID=1252) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:59:18.836+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T11:59:18.839+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:59:18.839+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:59:18.850+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:59:18.865+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:59:18.865+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T11:59:18.885+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.061 seconds
+[2024-11-21T11:59:49.573+0000] {processor.py:186} INFO - Started process (PID=1316) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:59:49.575+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T11:59:49.578+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:59:49.578+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:59:49.590+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:59:49.613+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:59:49.613+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T11:59:49.661+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.107 seconds
+[2024-11-21T11:59:50.840+0000] {processor.py:186} INFO - Started process (PID=1319) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:59:50.841+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T11:59:50.843+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:59:50.843+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:59:50.851+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T11:59:50.863+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:59:50.863+0000] {taskinstance.py:3312} ERROR - {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-01-13T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': 'f2db0b2b-402f-4892-8cba-10b82ae13dce'}
+[2024-11-21T11:59:50.877+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-11-21T11:59:50.877+0000] {logging_mixin.py:190} INFO - Task start:2024-11-21 11:54:47.786707+00:00 end:2024-11-21 11:59:50.867011+00:00 duration:303.080304
+[2024-11-21T11:59:50.877+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract_rides> dag:<DAG: etl_rides_pipeline> dagrun:<DagRun etl_rides_pipeline @ 2024-01-13 00:00:00+00:00: scheduled__2024-01-13T00:00:00+00:00, state:running, queued_at: 2024-11-20 01:34:54.871278+00:00. externally triggered: False>
+[2024-11-21T11:59:50.877+0000] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-01-13T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': 'f2db0b2b-402f-4892-8cba-10b82ae13dce'}
+[2024-11-21T11:59:50.878+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:59:50.878+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=etl_rides_pipeline, task_id=extract_rides, run_id=scheduled__2024-01-13T00:00:00+00:00, execution_date=20240113T000000, start_date=20241121T115447, end_date=20241121T115950
+[2024-11-21T11:59:50.892+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:59:50.892+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: etl_rides_pipeline.extract_rides scheduled__2024-01-13T00:00:00+00:00 [failed]> in state failed
+[2024-11-21T11:59:50.900+0000] {logging_mixin.py:190} INFO - [2024-11-21T11:59:50.900+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T11:59:50.917+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.082 seconds
+[2024-11-21T12:00:11.036+0000] {processor.py:186} INFO - Started process (PID=1373) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T12:00:11.038+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T12:00:11.042+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:00:11.042+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T12:00:11.056+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T12:00:11.073+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:00:11.073+0000] {taskinstance.py:3312} ERROR - {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-01-04T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': '313e050e-61cb-4ef0-93c1-9a72797faab1'}
+[2024-11-21T12:00:11.086+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-11-21T12:00:11.087+0000] {logging_mixin.py:190} INFO - Task start:2024-11-21 11:54:47.759251+00:00 end:2024-11-21 12:00:11.076768+00:00 duration:323.317517
+[2024-11-21T12:00:11.087+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract_rides> dag:<DAG: etl_rides_pipeline> dagrun:<DagRun etl_rides_pipeline @ 2024-01-04 00:00:00+00:00: scheduled__2024-01-04T00:00:00+00:00, state:running, queued_at: 2024-11-20 01:34:49.007524+00:00. externally triggered: False>
+[2024-11-21T12:00:11.087+0000] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-01-04T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': '313e050e-61cb-4ef0-93c1-9a72797faab1'}
+[2024-11-21T12:00:11.087+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:00:11.087+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=etl_rides_pipeline, task_id=extract_rides, run_id=scheduled__2024-01-04T00:00:00+00:00, execution_date=20240104T000000, start_date=20241121T115447, end_date=20241121T120011
+[2024-11-21T12:00:11.095+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:00:11.095+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: etl_rides_pipeline.extract_rides scheduled__2024-01-04T00:00:00+00:00 [failed]> in state failed
+[2024-11-21T12:00:11.102+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:00:11.102+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T12:00:11.123+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:00:11.123+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_rides_pipeline to 2024-02-05 00:00:00+00:00, run_after=2024-02-06 00:00:00+00:00
+[2024-11-21T12:00:11.130+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.109 seconds
+[2024-11-21T12:02:04.647+0000] {processor.py:186} INFO - Started process (PID=1382) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T12:02:04.651+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T12:02:04.698+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:02:04.690+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T12:02:04.769+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T12:02:04.838+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:02:04.838+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T12:02:04.904+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:02:04.903+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_rides_pipeline to 2024-02-06 00:00:00+00:00, run_after=2024-02-07 00:00:00+00:00
+[2024-11-21T12:02:04.967+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.338 seconds
+[2024-11-21T12:02:11.324+0000] {processor.py:186} INFO - Started process (PID=1409) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T12:02:11.328+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T12:02:11.335+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:02:11.334+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T12:02:11.454+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T12:02:27.886+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:02:27.830+0000] {taskinstance.py:3312} ERROR - {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-01-28T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': 'd27af824-b613-494d-91d5-467758a5fcce'}
+[2024-11-21T12:03:08.845+0000] {processor.py:186} INFO - Started process (PID=1418) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T12:03:08.849+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T12:03:08.869+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:03:08.863+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T12:03:08.941+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T12:03:09.072+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:03:09.072+0000] {taskinstance.py:3312} ERROR - {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-01-28T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': 'd27af824-b613-494d-91d5-467758a5fcce'}
+[2024-11-21T12:03:09.212+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-11-21T12:03:09.215+0000] {logging_mixin.py:190} INFO - Task start:2024-11-21 11:55:53.662234+00:00 end:2024-11-21 12:03:09.203087+00:00 duration:435.540853
+[2024-11-21T12:03:09.217+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract_rides> dag:<DAG: etl_rides_pipeline> dagrun:<DagRun etl_rides_pipeline @ 2024-01-28 00:00:00+00:00: scheduled__2024-01-28T00:00:00+00:00, state:running, queued_at: 2024-11-21 11:55:42.937646+00:00. externally triggered: False>
+[2024-11-21T12:03:09.222+0000] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-01-28T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': 'd27af824-b613-494d-91d5-467758a5fcce'}
+[2024-11-21T12:03:09.225+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:03:09.224+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=etl_rides_pipeline, task_id=extract_rides, run_id=scheduled__2024-01-28T00:00:00+00:00, execution_date=20240128T000000, start_date=20241121T115553, end_date=20241121T120309
+[2024-11-21T12:03:09.310+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:03:09.308+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: etl_rides_pipeline.extract_rides scheduled__2024-01-28T00:00:00+00:00 [up_for_retry]> in state up_for_retry
+[2024-11-21T12:03:09.325+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:03:09.325+0000] {taskinstance.py:3312} ERROR - {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-01-31T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': '6e8cd833-61eb-4150-b7d4-3e1f73c07648'}
+[2024-11-21T12:03:09.447+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-11-21T12:03:09.448+0000] {logging_mixin.py:190} INFO - Task start:2024-11-21 11:56:23.975059+00:00 end:2024-11-21 12:03:09.446639+00:00 duration:405.47158
+[2024-11-21T12:03:09.451+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract_rides> dag:<DAG: etl_rides_pipeline> dagrun:<DagRun etl_rides_pipeline @ 2024-01-31 00:00:00+00:00: scheduled__2024-01-31T00:00:00+00:00, state:running, queued_at: 2024-11-21 11:55:45.846924+00:00. externally triggered: False>
+[2024-11-21T12:03:09.452+0000] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-01-31T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': '6e8cd833-61eb-4150-b7d4-3e1f73c07648'}
+[2024-11-21T12:03:09.454+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:03:09.454+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=etl_rides_pipeline, task_id=extract_rides, run_id=scheduled__2024-01-31T00:00:00+00:00, execution_date=20240131T000000, start_date=20241121T115623, end_date=20241121T120309
+[2024-11-21T12:03:09.483+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:03:09.483+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: etl_rides_pipeline.extract_rides scheduled__2024-01-31T00:00:00+00:00 [up_for_retry]> in state up_for_retry
+[2024-11-21T12:03:10.558+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:03:10.551+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T12:03:11.776+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 2.958 seconds
+[2024-11-21T12:03:59.202+0000] {processor.py:186} INFO - Started process (PID=1447) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T12:03:59.204+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T12:03:59.206+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:03:59.206+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T12:03:59.236+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T12:03:59.281+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:03:59.281+0000] {taskinstance.py:3312} ERROR - {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-01-27T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': 'b8c75c98-1aeb-4ef2-9271-e5fb49d7e8ff'}
+[2024-11-21T12:03:59.326+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-11-21T12:03:59.326+0000] {logging_mixin.py:190} INFO - Task start:2024-11-21 12:03:31.310546+00:00 end:2024-11-21 12:03:59.300784+00:00 duration:27.990238
+[2024-11-21T12:03:59.328+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract_rides> dag:<DAG: etl_rides_pipeline> dagrun:<DagRun etl_rides_pipeline @ 2024-01-27 00:00:00+00:00: scheduled__2024-01-27T00:00:00+00:00, state:running, queued_at: 2024-11-21 11:55:42.797496+00:00. externally triggered: False>
+[2024-11-21T12:03:59.329+0000] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-01-27T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': 'b8c75c98-1aeb-4ef2-9271-e5fb49d7e8ff'}
+[2024-11-21T12:03:59.330+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:03:59.330+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=etl_rides_pipeline, task_id=extract_rides, run_id=scheduled__2024-01-27T00:00:00+00:00, execution_date=20240127T000000, start_date=20241121T120331, end_date=20241121T120359
+[2024-11-21T12:03:59.367+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:03:59.366+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: etl_rides_pipeline.extract_rides scheduled__2024-01-27T00:00:00+00:00 [failed]> in state failed
+[2024-11-21T12:03:59.408+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:03:59.407+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T12:03:59.472+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:03:59.471+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_rides_pipeline to 2024-02-07 00:00:00+00:00, run_after=2024-02-08 00:00:00+00:00
+[2024-11-21T12:03:59.515+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.345 seconds
+[2024-11-21T12:26:15.226+0000] {processor.py:186} INFO - Started process (PID=1496) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T12:26:15.235+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T12:26:15.246+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:26:15.244+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T12:26:15.350+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T12:26:15.537+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:26:15.536+0000] {taskinstance.py:3312} ERROR - {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-01-26T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': '55e7c2c4-9b65-454f-96c1-0d59308aa810'}
+[2024-11-21T12:26:16.016+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-11-21T12:26:16.042+0000] {logging_mixin.py:190} INFO - Task start:2024-11-21 12:03:20.783205+00:00 end:2024-11-21 12:26:15.571712+00:00 duration:1374.788507
+[2024-11-21T12:26:16.060+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract_rides> dag:<DAG: etl_rides_pipeline> dagrun:<DagRun etl_rides_pipeline @ 2024-01-26 00:00:00+00:00: scheduled__2024-01-26T00:00:00+00:00, state:running, queued_at: 2024-11-21 11:55:42.688879+00:00. externally triggered: False>
+[2024-11-21T12:26:16.068+0000] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-01-26T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': '55e7c2c4-9b65-454f-96c1-0d59308aa810'}
+[2024-11-21T12:26:16.077+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:26:16.075+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=etl_rides_pipeline, task_id=extract_rides, run_id=scheduled__2024-01-26T00:00:00+00:00, execution_date=20240126T000000, start_date=20241121T120320, end_date=20241121T122615
+[2024-11-21T12:26:16.197+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:26:16.194+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: etl_rides_pipeline.extract_rides scheduled__2024-01-26T00:00:00+00:00 [failed]> in state failed
+[2024-11-21T12:26:16.262+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:26:16.260+0000] {taskinstance.py:3312} ERROR - {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-02-01T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': '5d9bffac-36cf-4745-9c1f-a53290f54db8'}
+[2024-11-21T12:26:16.304+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-11-21T12:26:16.306+0000] {logging_mixin.py:190} INFO - Task start:2024-11-21 12:03:10.140269+00:00 end:2024-11-21 12:26:16.271568+00:00 duration:1386.131299
+[2024-11-21T12:26:16.308+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract_rides> dag:<DAG: etl_rides_pipeline> dagrun:<DagRun etl_rides_pipeline @ 2024-02-01 00:00:00+00:00: scheduled__2024-02-01T00:00:00+00:00, state:running, queued_at: 2024-11-21 11:55:46.631799+00:00. externally triggered: False>
+[2024-11-21T12:26:16.309+0000] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-02-01T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': '5d9bffac-36cf-4745-9c1f-a53290f54db8'}
+[2024-11-21T12:26:16.311+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:26:16.311+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=etl_rides_pipeline, task_id=extract_rides, run_id=scheduled__2024-02-01T00:00:00+00:00, execution_date=20240201T000000, start_date=20241121T120310, end_date=20241121T122616
+[2024-11-21T12:26:16.345+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:26:16.344+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: etl_rides_pipeline.extract_rides scheduled__2024-02-01T00:00:00+00:00 [failed]> in state failed
+[2024-11-21T12:26:16.354+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:26:16.354+0000] {taskinstance.py:3312} ERROR - {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-01-22T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': '2637b788-10d3-40df-aacb-f8fbb8f8c4d0'}
+[2024-11-21T12:26:16.394+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-11-21T12:26:16.400+0000] {logging_mixin.py:190} INFO - Task start:2024-11-21 12:03:32.367802+00:00 end:2024-11-21 12:26:16.370776+00:00 duration:1364.002974
+[2024-11-21T12:26:16.402+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract_rides> dag:<DAG: etl_rides_pipeline> dagrun:<DagRun etl_rides_pipeline @ 2024-01-22 00:00:00+00:00: scheduled__2024-01-22T00:00:00+00:00, state:running, queued_at: 2024-11-21 11:55:12.020401+00:00. externally triggered: False>
+[2024-11-21T12:26:16.405+0000] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-01-22T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': '2637b788-10d3-40df-aacb-f8fbb8f8c4d0'}
+[2024-11-21T12:26:16.408+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:26:16.407+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=etl_rides_pipeline, task_id=extract_rides, run_id=scheduled__2024-01-22T00:00:00+00:00, execution_date=20240122T000000, start_date=20241121T120332, end_date=20241121T122616
+[2024-11-21T12:26:16.421+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:26:16.421+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: etl_rides_pipeline.extract_rides scheduled__2024-01-22T00:00:00+00:00 [failed]> in state failed
+[2024-11-21T12:26:16.571+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:26:16.570+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T12:26:16.791+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:26:16.787+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_rides_pipeline to 2024-02-09 00:00:00+00:00, run_after=2024-02-10 00:00:00+00:00
+[2024-11-21T12:26:16.995+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 1.820 seconds
+[2024-11-21T12:42:58.401+0000] {processor.py:186} INFO - Started process (PID=1533) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T12:42:58.411+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T12:42:58.417+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:42:58.416+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T12:42:58.511+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T12:42:58.580+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:42:58.579+0000] {taskinstance.py:3312} ERROR - {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-01-28T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': '13c59e77-22ca-41ea-b5cc-030cd87865b6'}
+[2024-11-21T12:42:58.669+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-11-21T12:42:58.671+0000] {logging_mixin.py:190} INFO - Task start:2024-11-21 12:26:27.140117+00:00 end:2024-11-21 12:42:58.598523+00:00 duration:991.458406
+[2024-11-21T12:42:58.674+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract_rides> dag:<DAG: etl_rides_pipeline> dagrun:<DagRun etl_rides_pipeline @ 2024-01-28 00:00:00+00:00: scheduled__2024-01-28T00:00:00+00:00, state:running, queued_at: 2024-11-21 11:55:42.937646+00:00. externally triggered: False>
+[2024-11-21T12:42:58.677+0000] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-01-28T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': '13c59e77-22ca-41ea-b5cc-030cd87865b6'}
+[2024-11-21T12:42:58.679+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:42:58.679+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=etl_rides_pipeline, task_id=extract_rides, run_id=scheduled__2024-01-28T00:00:00+00:00, execution_date=20240128T000000, start_date=20241121T122627, end_date=20241121T124258
+[2024-11-21T12:42:58.722+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:42:58.721+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: etl_rides_pipeline.extract_rides scheduled__2024-01-28T00:00:00+00:00 [failed]> in state failed
+[2024-11-21T12:42:58.859+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:42:58.846+0000] {taskinstance.py:3312} ERROR - {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-02-05T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': '9361387c-bbbf-4237-913d-ec19c28d7d15'}
+[2024-11-21T12:42:58.877+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-11-21T12:42:58.877+0000] {logging_mixin.py:190} INFO - Task start:2024-11-21 12:26:27.167771+00:00 end:2024-11-21 12:42:58.867276+00:00 duration:991.699505
+[2024-11-21T12:42:58.879+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract_rides> dag:<DAG: etl_rides_pipeline> dagrun:<DagRun etl_rides_pipeline @ 2024-02-05 00:00:00+00:00: scheduled__2024-02-05T00:00:00+00:00, state:running, queued_at: 2024-11-21 12:00:12.025212+00:00. externally triggered: False>
+[2024-11-21T12:42:58.880+0000] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-02-05T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': '9361387c-bbbf-4237-913d-ec19c28d7d15'}
+[2024-11-21T12:42:58.881+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:42:58.881+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=etl_rides_pipeline, task_id=extract_rides, run_id=scheduled__2024-02-05T00:00:00+00:00, execution_date=20240205T000000, start_date=20241121T122627, end_date=20241121T124258
+[2024-11-21T12:42:58.898+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:42:58.897+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: etl_rides_pipeline.extract_rides scheduled__2024-02-05T00:00:00+00:00 [failed]> in state failed
+[2024-11-21T12:42:58.907+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:42:58.906+0000] {taskinstance.py:3312} ERROR - {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-02-06T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': '13e0765a-5eb8-401e-a394-1564ac768ad2'}
+[2024-11-21T12:42:58.935+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-11-21T12:42:58.936+0000] {logging_mixin.py:190} INFO - Task start:2024-11-21 12:26:27.209930+00:00 end:2024-11-21 12:42:58.917245+00:00 duration:991.707315
+[2024-11-21T12:42:58.937+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract_rides> dag:<DAG: etl_rides_pipeline> dagrun:<DagRun etl_rides_pipeline @ 2024-02-06 00:00:00+00:00: scheduled__2024-02-06T00:00:00+00:00, state:running, queued_at: 2024-11-21 12:02:05.656784+00:00. externally triggered: False>
+[2024-11-21T12:42:58.938+0000] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-02-06T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': '13e0765a-5eb8-401e-a394-1564ac768ad2'}
+[2024-11-21T12:42:58.940+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:42:58.939+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=etl_rides_pipeline, task_id=extract_rides, run_id=scheduled__2024-02-06T00:00:00+00:00, execution_date=20240206T000000, start_date=20241121T122627, end_date=20241121T124258
+[2024-11-21T12:42:58.952+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:42:58.951+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: etl_rides_pipeline.extract_rides scheduled__2024-02-06T00:00:00+00:00 [failed]> in state failed
+[2024-11-21T12:42:59.008+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:42:59.007+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T12:42:59.095+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:42:59.094+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_rides_pipeline to 2024-02-11 00:00:00+00:00, run_after=2024-02-12 00:00:00+00:00
+[2024-11-21T12:42:59.146+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.772 seconds
+[2024-11-21T12:54:09.017+0000] {processor.py:186} INFO - Started process (PID=1593) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T12:54:09.104+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T12:54:09.200+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:54:09.134+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T12:54:10.311+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T12:54:11.440+0000] {logging_mixin.py:190} INFO - [2024-11-21T12:54:11.408+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T12:54:18.916+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 10.393 seconds
+[2024-11-21T13:36:59.296+0000] {processor.py:186} INFO - Started process (PID=1712) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T13:36:59.331+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T13:36:59.335+0000] {logging_mixin.py:190} INFO - [2024-11-21T13:36:59.334+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T13:36:59.451+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T13:36:59.580+0000] {logging_mixin.py:190} INFO - [2024-11-21T13:36:59.580+0000] {taskinstance.py:3312} ERROR - {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-02-17T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': '26ee0481-4cef-4e24-b6f5-9bbf2ea3ee09'}
+[2024-11-21T13:36:59.709+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-11-21T13:36:59.710+0000] {logging_mixin.py:190} INFO - Task start:2024-11-21 13:28:58.808099+00:00 end:2024-11-21 13:36:59.589418+00:00 duration:480.781319
+[2024-11-21T13:36:59.712+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract_rides> dag:<DAG: etl_rides_pipeline> dagrun:<DagRun etl_rides_pipeline @ 2024-02-17 00:00:00+00:00: scheduled__2024-02-17T00:00:00+00:00, state:running, queued_at: 2024-11-21 12:43:20.321372+00:00. externally triggered: False>
+[2024-11-21T13:36:59.715+0000] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-02-17T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': '26ee0481-4cef-4e24-b6f5-9bbf2ea3ee09'}
+[2024-11-21T13:36:59.723+0000] {logging_mixin.py:190} INFO - [2024-11-21T13:36:59.722+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=etl_rides_pipeline, task_id=extract_rides, run_id=scheduled__2024-02-17T00:00:00+00:00, execution_date=20240217T000000, start_date=20241121T132858, end_date=20241121T133659
+[2024-11-21T13:36:59.777+0000] {logging_mixin.py:190} INFO - [2024-11-21T13:36:59.777+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: etl_rides_pipeline.extract_rides scheduled__2024-02-17T00:00:00+00:00 [failed]> in state failed
+[2024-11-21T13:36:59.783+0000] {logging_mixin.py:190} INFO - [2024-11-21T13:36:59.783+0000] {taskinstance.py:3312} ERROR - {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-02-13T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': '7c791e20-9f2f-4d77-9622-7e76a516d2a7'}
+[2024-11-21T13:36:59.800+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-11-21T13:36:59.801+0000] {logging_mixin.py:190} INFO - Task start:2024-11-21 13:28:58.512472+00:00 end:2024-11-21 13:36:59.792661+00:00 duration:481.280189
+[2024-11-21T13:36:59.802+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract_rides> dag:<DAG: etl_rides_pipeline> dagrun:<DagRun etl_rides_pipeline @ 2024-02-13 00:00:00+00:00: scheduled__2024-02-13T00:00:00+00:00, state:running, queued_at: 2024-11-21 12:43:19.226268+00:00. externally triggered: False>
+[2024-11-21T13:36:59.803+0000] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-02-13T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': '7c791e20-9f2f-4d77-9622-7e76a516d2a7'}
+[2024-11-21T13:36:59.808+0000] {logging_mixin.py:190} INFO - [2024-11-21T13:36:59.807+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=etl_rides_pipeline, task_id=extract_rides, run_id=scheduled__2024-02-13T00:00:00+00:00, execution_date=20240213T000000, start_date=20241121T132858, end_date=20241121T133659
+[2024-11-21T13:36:59.822+0000] {logging_mixin.py:190} INFO - [2024-11-21T13:36:59.821+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: etl_rides_pipeline.extract_rides scheduled__2024-02-13T00:00:00+00:00 [failed]> in state failed
+[2024-11-21T13:36:59.873+0000] {logging_mixin.py:190} INFO - [2024-11-21T13:36:59.872+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T13:36:59.952+0000] {logging_mixin.py:190} INFO - [2024-11-21T13:36:59.951+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_rides_pipeline to 2024-02-25 00:00:00+00:00, run_after=2024-02-26 00:00:00+00:00
+[2024-11-21T13:36:59.975+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.757 seconds
+[2024-11-21T14:01:37.482+0000] {processor.py:186} INFO - Started process (PID=1758) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T14:01:37.488+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T14:01:37.527+0000] {logging_mixin.py:190} INFO - [2024-11-21T14:01:37.514+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T14:01:37.838+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T14:01:39.434+0000] {logging_mixin.py:190} INFO - [2024-11-21T14:01:39.431+0000] {taskinstance.py:3312} ERROR - {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-02-24T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': '86225b2e-67f5-47b1-a568-439a831796a4'}
+[2024-11-21T14:01:39.542+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-11-21T14:01:39.544+0000] {logging_mixin.py:190} INFO - Task start:2024-11-21 14:01:20.646083+00:00 end:2024-11-21 14:01:39.445166+00:00 duration:18.799083
+[2024-11-21T14:01:39.546+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract_rides> dag:<DAG: etl_rides_pipeline> dagrun:<DagRun etl_rides_pipeline @ 2024-02-24 00:00:00+00:00: scheduled__2024-02-24T00:00:00+00:00, state:running, queued_at: 2024-11-21 12:43:25.325713+00:00. externally triggered: False>
+[2024-11-21T14:01:39.550+0000] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'etl_rides_pipeline', 'Task Id': 'extract_rides', 'Run Id': 'scheduled__2024-02-24T00:00:00+00:00', 'Hostname': '8c16ff7970b8', 'External Executor Id': '86225b2e-67f5-47b1-a568-439a831796a4'}
+[2024-11-21T14:01:39.551+0000] {logging_mixin.py:190} INFO - [2024-11-21T14:01:39.551+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=etl_rides_pipeline, task_id=extract_rides, run_id=scheduled__2024-02-24T00:00:00+00:00, execution_date=20240224T000000, start_date=20241121T140120, end_date=20241121T140139
+[2024-11-21T14:01:39.808+0000] {logging_mixin.py:190} INFO - [2024-11-21T14:01:39.750+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: etl_rides_pipeline.extract_rides scheduled__2024-02-24T00:00:00+00:00 [failed]> in state failed
+[2024-11-21T14:01:40.278+0000] {logging_mixin.py:190} INFO - [2024-11-21T14:01:40.219+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T14:01:40.749+0000] {logging_mixin.py:190} INFO - [2024-11-21T14:01:40.691+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_rides_pipeline to 2024-03-07 00:00:00+00:00, run_after=2024-03-08 00:00:00+00:00
+[2024-11-21T14:33:41.121+0000] {processor.py:186} INFO - Started process (PID=1785) to work on /opt/airflow/dags/etl_dag.py
+[2024-11-21T14:33:41.211+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2024-11-21T14:33:41.240+0000] {logging_mixin.py:190} INFO - [2024-11-21T14:33:41.223+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2024-11-21T14:33:42.182+0000] {processor.py:925} INFO - DAG(s) 'etl_rides_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2024-11-21T14:33:50.643+0000] {logging_mixin.py:190} INFO - [2024-11-21T14:33:50.608+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T14:33:51.124+0000] {logging_mixin.py:190} INFO - [2024-11-21T14:33:51.092+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_rides_pipeline to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-11-21T14:33:51.958+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 11.279 seconds
